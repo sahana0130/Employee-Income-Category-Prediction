@@ -1,0 +1,142 @@
+
+/* ===== EMPLOYEE INCOME PREDICTOR: LIGHT THEME ===== */
+
+.stApp,
+[data-testid="stAppViewContainer"],
+[data-testid="stMain"] {
+    background: #F4F7FB !important;
+    background-image: none !important;
+    color: #26364A !important;
+}
+
+[data-testid="stAppViewContainer"]::before,
+[data-testid="stAppViewContainer"]::after,
+.stApp::before,
+.stApp::after {
+    background: none !important;
+    background-image: none !important;
+    opacity: 0 !important;
+}
+
+.block-container {
+    max-width: 1250px !important;
+    padding-top: 2rem !important;
+    padding-bottom: 3rem !important;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"],
+[data-testid="stSidebar"] > div {
+    background: #FFFFFF !important;
+    background-image: none !important;
+    border-right: 1px solid #E2E8F0 !important;
+}
+
+[data-testid="stSidebar"] * {
+    color: #334155 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5 {
+    color: #1E3A5F !important;
+    font-weight: 700 !important;
+}
+
+/* Normal text */
+p, li, label,
+[data-testid="stMarkdownContainer"],
+[data-testid="stWidgetLabel"],
+[data-testid="stCaptionContainer"] {
+    color: #475569 !important;
+}
+
+/* Cards, forms and containers */
+[data-testid="stVerticalBlockBorderWrapper"],
+[data-testid="stForm"],
+[data-testid="stExpander"],
+[data-testid="stMetric"] {
+    background: #FFFFFF !important;
+    background-image: none !important;
+    border: 1px solid #E2E8F0 !important;
+    border-radius: 14px !important;
+}
+
+[data-testid="stMetric"] {
+    padding: 16px !important;
+    box-shadow: 0 3px 12px rgba(30, 58, 95, 0.05);
+}
+
+[data-testid="stMetricLabel"],
+[data-testid="stMetricValue"] {
+    color: #1E3A5F !important;
+}
+
+/* Text inputs and number inputs */
+.stTextInput input,
+.stNumberInput input,
+.stTextArea textarea,
+[data-baseweb="select"] > div {
+    background: #FFFFFF !important;
+    color: #26364A !important;
+    border-color: #CBD5E1 !important;
+    border-radius: 9px !important;
+}
+
+/* Buttons */
+.stButton > button,
+.stDownloadButton > button {
+    background: #DBEAFE !important;
+    background-image: none !important;
+    color: #1D4ED8 !important;
+    border: 1px solid #BFDBFE !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+}
+
+.stButton > button:hover,
+.stDownloadButton > button:hover {
+    background: #BFDBFE !important;
+}
+
+/* Tabs */
+button[data-baseweb="tab"] {
+    color: #475569 !important;
+}
+
+button[data-baseweb="tab"][aria-selected="true"] {
+    color: #1D4ED8 !important;
+}
+
+/* Tables */
+[data-testid="stDataFrame"],
+[data-testid="stTable"] {
+    background: #FFFFFF !important;
+}
+
+/* Alerts */
+[data-testid="stAlert"] {
+    border-radius: 10px !important;
+}
+
+/* Plotly chart containers */
+[data-testid="stPlotlyChart"] {
+    background: #FFFFFF !important;
+    border: 1px solid #E2E8F0 !important;
+    border-radius: 12px !important;
+    padding: 8px !important;
+}
+
+/* Dividers */
+hr {
+    border-color: #E2E8F0 !important;
+}
+
+/* Remove common custom dark panels */
+.dark-panel,
+.dark-card,
+.gradient-background {
+    background: #FFFFFF !important;
+    background-image: none !important;
+    color: #26364A !important;
+    box-shadow: 0 3px 12px rgba(30, 58, 95, 0.05) !important;
+}
